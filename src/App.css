@@ -1,0 +1,36 @@
+body {
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
+    color: #fff;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.notesHeader,
+.notesBody,
+.notesFooter {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 0;
+}
+
+.notesHeader {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;
+}
+
+.notesBody {
+    margin-top: 20px;
+}
+
+.notesFooter {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
